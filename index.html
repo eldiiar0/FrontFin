@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>  
+    <title>Text encryptor</title>
+  </head>
+  <body>
+      <div class="image-container">
+        <img src="./src/assets/logo.png" alt="Your Image">
+      </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+
+  <script>
+    const imageContainer = document.querySelector('.image-container');
+  
+    window.addEventListener('load', () => {
+      imageContainer.style.display = 'flex'; // Show image when the page loads
+    });
+  </script>
+</html>
+

@@ -1,0 +1,26 @@
+.image-container {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Ensure the image stays on top of other content */
+    animation: fadeIn 4s ease-in-out forwards; /* Apply the animation to fade in and stay */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
